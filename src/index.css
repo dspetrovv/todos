@@ -11,3 +11,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  padding-top: 5rem;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.inputStyle {
+  padding: 0.5rem;
+  border: 1px solid grey;
+  border-radius: 0.25rem;
+}
+
+.inputStyle:focus {
+  border: 1px solid rgb(0, 76, 255);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 76, 255, 0.2);
+}
+
+.todoList {
+  list-style-type: none;
+  padding: 0.3rem;
+  border: 1px solid grey;
+  border-radius: 0.25rem;
+  margin: 0.25rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todoList:hover {
+  border: 1px solid rgb(39, 255, 32);
+  box-shadow: 0 0 1px 3px rgba(0, 255, 23, 0.25);
+}
+
+.customBtn {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  outline: none;
+}
+
+.createBtn {
+  border: 1px solid rgb(17, 200, 0);
+  background-color: rgb(21, 255, 0);
+  margin: auto 0.4rem;
+}
+
+.createBtn:hover {
+  background-color: rgba(21, 255, 0, 0.65);
+}
+
+.createBtn:focus {
+  background-color: rgba(21, 255, 0, 0.75);
+}
+
+.deleteBtn {
+  border: 1px solid rgb(190, 0, 0);
+  background-color: rgb(255, 0, 0);
+}
+
+.deleteBtn:hover {
+  background-color: rgba(255, 0, 0, 0.65);
+}
+
+.deleteBtn:focus {
+  background-color: rgba(255, 0, 0, 0.75);
+}
+
+.checkboxClass {
+  margin-right: 0.5rem;
+}
+
+.done {
+  text-decoration: line-through;
+}
